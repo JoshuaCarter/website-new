@@ -1,6 +1,5 @@
 'use strict';
 
-//const args = require('minimist')(process.argv.slice(2));
 var env = require('dotenv').config();
 const path = require('path');
 const express = require('express');
@@ -42,7 +41,7 @@ app.use(express.json());
 
 //default route serves react
 app.get('*', (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'public/build/index.html'));
+	res.sendFile(path.resolve(__dirname, 'public/index.html'));
 });
 
 //listen
