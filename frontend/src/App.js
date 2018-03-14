@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
+// router
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 // ui
 import { Container } from 'semantic-ui-react';
 // components
 import Navbar from './components/navbar';
+import Home from './components/home';
 
 class App extends Component {
 	render() {
 		return (
-			<Container>
-				<Navbar></Navbar>
-				<div>
-					<p>
-						This is some text.
-					</p>
-				</div>
-			</Container>
+			<Router>
+				<Container>
+					<Navbar></Navbar>
+					<Route exact path="/" component={Home} />
+				</Container>
+			</Router>
 		);
 	}
 }
