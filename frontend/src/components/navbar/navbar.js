@@ -13,13 +13,16 @@ class Navbar extends React.Component {
 				<Link to="/">
 					<Menu.Item header link>Joshua Carter</Menu.Item>
 				</Link>
+				<Link to="/skills">
+					<Menu.Item link>Skills</Menu.Item>
+				</Link>
 				<Link to="/projects">
 					<Menu.Item link>Projects</Menu.Item>
 				</Link>
 				<Link to="/resume">
 					<Menu.Item link>Resume</Menu.Item>
 				</Link>
-				<Menu.Item href="https://github.com/JoshuaCarter" target="_blank" icon position="right">
+				<Menu.Item href="https://github.com/JoshuaCarter/website-new" target="_blank" icon position="right">
 					<Icon name="github" size="large" />
 				</Menu.Item>
 				<Menu.Item href="https://linkedin.com/in/joshua-carter-dev" target="_blank" icon>
