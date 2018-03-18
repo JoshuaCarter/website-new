@@ -9,6 +9,7 @@
 # production
 **/build
 backend/public
+*.css
 
 # misc
 .DS_Store

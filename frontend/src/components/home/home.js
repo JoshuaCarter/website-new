@@ -8,7 +8,7 @@ import { Container, Header, Divider, Icon } from 'semantic-ui-react';
 class Home extends React.Component {
 	render() {
 		return (
-			<main id="main">
+			<main>
 				<Container text>
 					<Header as="h1">Hi, I'm Josh</Header>
 					<Divider />
