@@ -12,7 +12,7 @@ class App extends Component {
 	render() {
 		return (
 			<Router>
-				<Container style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
+				<Container style={{ minHeight: '100vh', backgroundColor: '#f7f7f7' }}>
 					<Navbar />
 					<Route exact path="/" component={Home} />
 				</Container>
