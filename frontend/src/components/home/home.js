@@ -12,10 +12,9 @@ class Home extends React.Component {
 				<Container text>
 					<Header as="h1">Hi, I'm Josh</Header>
 					<Divider />
-					<p>And this is my personal website.</p>
-					<p>I'm a budding web developer who's working hard to learn the <strong>bazillion</strong> tools used to make quality websites. This website is a way for me to demonstrate what I've learned and acts as a portal to information on my projects and skills.</p>
-					<p>I used to teach C++/C# native app development for windows. This is fancy talk for "I don't want to tell you that I taught programming for video games". Why? Well, sometimes people hear this and worry that my real passion must be games, but honestly, I felt out of love with the games industry pretty hard and while ago.</p>
-					<p>My real passion is programming, and while I obviously have my preferrences and scrupals, I mostly don't mind what language I use or what I'm building, but so far web apps have appealed to me the most. Currently I'm digging JavaScript (ES6 is a godsend) and I'd like to put my C++ skills to use in Golang in the future.</p>
+					<p>I'm a budding web developer who's working hard to learn the <strong>bazillion</strong> tools needed to make quality websites. This website is a way for me to demonstrate what I've learned and acts as a portal to information on my projects and skills.</p>
+					<p>I used to teach C++/C# native app development for windows. This is fancy talk for "I don't want to tell you that I taught programming for video games". Why? Well, sometimes people hear this and worry that my real passion must be games, but honestly, I felt out of love with the games industry pretty hard and while ago and discovered that my passion for programming remained unchanged.</p>
+					<p>While I obviously have my preferences and scruples, I mostly don't mind what language I use or what I'm building, but so far web apps have appealed to me the most. I'm currently digging using a JavaScript stack, and one day I'd like to put my C++ skills to use in Golang.</p>
 					<p>Now, if only I could convince someone to pay me to do all this ;)</p>
 				</Container>
 				<Container textAlign="center">
