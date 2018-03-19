@@ -2,6 +2,7 @@
 	"files.exclude": {
 		"**/node_modules": true,
 		"**/*.css": true,
-		"**/build": true
+		"**/build": true,
+		"**/*.pem": true
 	}
 }
