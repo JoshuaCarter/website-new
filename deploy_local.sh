@@ -4,7 +4,7 @@ line="--------------------------------------"
 form="%s\n %s:\n%s\n"
 
 #build script for nodejs
-printf "$form" "$line" "Build React" "$line"
+printf "$form" "$line" "Build frontend" "$line"
 cd frontend
 npm run build
 rm -r ../backend/public
@@ -12,9 +12,11 @@ mkdir -p ../backend/public
 mv ./build/* ../backend/public/
 rm -r ./build
 
-printf "$form" "$line" "Build Docker" "$line"
+printf "$form" "$line" "Restarting container" "$line"
 cd ../
-docker build -t jc/my-website-img:1.0 ./
+docker stop -t 0 jc-website
+docker build -t jc/website:v1.0 ./	
+docker run --rm -d -p 80:80 --name jc-website jc/website:v1.0
 
 #quit on user input
 echo ""
