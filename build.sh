@@ -14,7 +14,7 @@ rm -r ./build
 
 printf "$form" "$line" "Build Docker" "$line"
 cd ../
-docker build -t jc/express-img:1.0 ./
+docker build -t jc/my-website-img:1.0 ./
 
 #quit on user input
 echo ""
