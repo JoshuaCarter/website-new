@@ -18,6 +18,8 @@ const app = express();
 
 //static dir
 app.use(express.static('public'));
+//favicon
+app.use('/favicon.ico', express.static('favicon.ico'));
 
 //cross origin middleware
 app.use(cors({
