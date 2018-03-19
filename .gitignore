@@ -11,6 +11,9 @@
 backend/public
 *.css
 
+# security
+*.pem
+
 # misc
 .DS_Store
 .env.local
