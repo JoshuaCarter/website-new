@@ -1,9 +1,10 @@
 #!/bin/sh
 
 # REQUIREMENTS:
-#	1) EC2 instance must have git, npm, and docker installed.
-#	2) 'ec2-user' must belong to the docker group.
-#	3) The dir '/var/www/' must exist and the owner must be 'ec2-user'.
+#	1) EC2 pem key must exist in this directory.
+#	2) EC2 instance must have git, npm, and docker installed.
+#	3) 'ec2-user' must belong to the docker group.
+#	4) The dir '/var/www/' must exist and the owner must be 'ec2-user'.
 
 line="-----------------------------------------------------------------------------"
 form="%s\n %s:\n%s\n"
