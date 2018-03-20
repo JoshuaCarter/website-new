@@ -1,5 +1,0 @@
-.menu {
-  border-radius: 0 !important;
-  /* Fixes menu item height when nested in router link */ }
-  .menu .item {
-    height: 100%; }
