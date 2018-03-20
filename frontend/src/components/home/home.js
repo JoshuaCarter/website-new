@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './home.css';
 import { connect } from 'react-redux';
 // ui
 import { Container, Header, Divider, Icon } from 'semantic-ui-react';
@@ -10,7 +10,7 @@ class Home extends React.Component {
 		return (
 			<main>
 				<Container text>
-					<Header as="h1">Hi, I'm Josh.</Header>
+					<Header as="h1">Hey, I'm Josh.</Header>
 					<Divider />
 					<p>I'm a budding web developer who's working hard to learn the <strong>bazillion</strong> tools needed to make quality websites. This website is a way for me to demonstrate what I've learned and acts as a portal to information on my projects and skills.</p>
 					<p>I used to teach C++/C# native app development for windows. This is fancy talk for "I don't want to tell you that I taught programming for video games". Why? Well, sometimes people hear this and worry that my real passion must be games, but honestly, I felt out of love with the games industry pretty hard and while ago and discovered that my passion for programming remained unchanged.</p>
@@ -19,7 +19,7 @@ class Home extends React.Component {
 				</Container>
 				<Container textAlign="center">
 					<Header as="h4">Download My Resume</Header>
-					<Icon as="i" name="file pdf outline" size="huge" onClick={this.onClick} link />
+					<Icon className="pdf" as="i" name="file pdf outline" size="huge" onClick={this.onClick} link />
 				</Container>
 			</main>
 		);
