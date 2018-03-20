@@ -16,7 +16,7 @@ printf "$form" "$line" "Restarting container" "$line"
 cd ../
 docker stop -t 0 jc-website
 docker build -t jc/website:v1.0 ./	
-docker run --rm -d -p 80:80 --name jc-website jc/website:v1.0
+docker run --rm -d --name jc-website jc/website:v1.0
 
 #quit on user input
 echo ""
