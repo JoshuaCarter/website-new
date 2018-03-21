@@ -8,7 +8,7 @@ import { Container, Header, Divider, Icon } from 'semantic-ui-react';
 class Home extends React.Component {
 	render() {
 		return (
-			<main>
+			<section>
 				<Container text>
 					<Header as="h1">Hey, I'm Josh.</Header>
 					<Divider />
@@ -17,11 +17,11 @@ class Home extends React.Component {
 					<p>While I obviously have my preferences and scruples, I mostly don't mind what language I use or what I'm building, but so far web apps have appealed to me the most. I'm currently digging using a JavaScript stack, and one day I'd like to put my C++ skills to use in Golang.</p>
 					<p>Now, if only I could convince someone to pay me to do all this ;)</p>
 				</Container>
-				<Container textAlign="center">
+				<Container className="pdf" textAlign="center">
 					<Header as="h4">Download My Resume</Header>
-					<Icon className="pdf" as="i" name="file pdf outline" size="huge" onClick={this.onClick} link />
+					<Icon as="i" name="file pdf outline" size="huge" onClick={this.onClick} link />
 				</Container>
-			</main>
+			</section>
 		);
 	}
 
