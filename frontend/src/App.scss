@@ -1,4 +1,24 @@
+@import './scss/colors';
 
+// html globals
 h1, h2, h3, h4, h5, h6, p, a, header {
-	color: rgba($color: #fff, $alpha: 1) !important;
+	color: $text_color;
 }
+
+main {
+	margin: 100px 0 50px 0;
+}
+
+section {
+	background-color: $section_color;
+	padding: 50px 10px 50px 10px;
+}
+
+// react globals
+.active {
+	background-color: $active_color;
+}
+
+// semantic ui globals
+
+// custom globals
