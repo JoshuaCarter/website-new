@@ -14,9 +14,11 @@ class App extends Component {
 			<Router>
 				<Container style={{ minHeight: '100vh' }}>
 					<Navbar />
-					<Route exact path="/" component={Home} />
-					<Route exact path="/skills" component={Home} />
-					<Route exact path="/projects" component={Home} />
+					<main>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/skills" component={Home} />
+						<Route exact path="/projects" component={Home} />
+					</main>
 				</Container>
 			</Router>
 		);
