@@ -1,18 +1,23 @@
-
-.segment {
-	background-color: rgba($color: #000, $alpha: 0.0) !important;
-}
+@import '../../scss/colors';
 
 .menu {
-	margin-top: 20px !important;
+	padding-top: 10px !important;
 	border-radius: 0 !important;
-	background-color: transparent !important;
+	background-color: $background_color;
 
 	.item {
 		border-radius: 0 !important;
 	}
 }
 
-.active {
-	background-color: tomato !important;
+.sidebar {
+
+	.pushable {
+		border: none;
+	}
+
+	.pusher {
+		min-height: 100vh;
+		border: none;
+	}
 }
